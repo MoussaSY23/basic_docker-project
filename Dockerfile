@@ -7,8 +7,6 @@ WORKDIR /app
 # Copier les fichiers du projet dans le container
 COPY . /app
 
-# Installer les dépendances du projet
-RUN pip install --no-cache-dir -r requirements.txt
 
 # Exposer le port que l'application va utiliser
 EXPOSE 5000
